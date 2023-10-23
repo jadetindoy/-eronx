@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+@media screen and (max-width:400px) {
+    [class*="col-"] {
+        width: 100%
+        
+    } 
+    .col-sm-  
+}
+
+
+body {
+    background-color: #252525;
+}
+* {
+        color: rgb(255, 255, 255);
+        font-family: "Inter";
+        font-style: normal;
+        line-height: normal;
+        text-transform: capitalize;
+}
+.header {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 150px;
+    height: 86px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+#header {
+    list-style: none;
+}
+
+#header li  {
+    display: inline;
+    padding: 20px 30px; 
+}
+
+#header li  a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+#header li a:hover {
+    color: #854489;
+    text-decoration: underline;
+}
+#hero {
+    text-align: center;
+    background-image: url(music.jpg);
+    background-size: cover; 
+    background-position: center; 
+    padding: 15%;
+}
+#eronx {
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.actor {
+    float: right;
+    size: 700px 700px;
+}
+.artist {
+    text-align: center;
+}
+.hero  {
+    text-decoration-color: #f1f1f1;
+}
+
+.artist-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
+}
+
+
+.artist-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
+}
+
+.artist {
+    padding: 20px;
+}
+
+.actor {
+    max-width: 100%;
+    height: auto;
+    margin-left: 30px;
+}
+
+h3 {
+    color: #777777;
+    font-size: x-large;
+
+}
+p {
+    text-align-last: center;
+}
+
+
+#hover a {
+    text-decoration: none; 
+    color: rgb(202, 20, 20); 
+}
+
+#hover a:hover {
+    color: rgb(15, 15, 223);
+}
+
+#hover i {
+    text-decoration: none; 
+}
+
+.icon-space {
+    display: inline-block;
+    width: 10px;
+}
+
+.aboutartist {
+    font-size: small;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.maparea,
+.contact-us {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.maparea {
+    flex: 1;
+    margin-right: 10%; 
+}
+
+.contact-us {
+    flex: 1;
+    margin-left: 20px; 
+}
+
+#form {
+    display: grid;
+    gap: 10px;
+    color: #252525;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#send {
+    background-color: #B564C2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#send:hover {
+    background-color: #854489;
+}
+
+#contactus {
+    color: #252525;
+}
+footer {
+    background-color: hwb(0 100% 0%);
+    border-style: solid;
+    text-align: center;
+}
